@@ -13,5 +13,6 @@ public class MD5Sample {
 		String encMessage = CryptoUtil.encryptAES256(plainText, key);
 		System.out.println("AES-256 : " + plainText + " -> " + encMessage);
 		System.out.println("AES-256 : " + plainText + " -> " + CryptoUtil.decryptAES256(encMessage, key));
+		
 	}
 }
